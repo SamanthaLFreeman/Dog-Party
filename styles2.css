@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+body {
+	width: 1010px;
+	margin: auto;
+}
+
+.Doglogo {
+	width: 85%;
+	margin: 8%;
+}
+
+nav {
+    height: 1366px;
+    width: 160px;
+    float: left;
+    background-color: #9A969C;
+    border-right: 3px solid #3E3544;
+}
+
+ul {
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+li {
+	padding-bottom: 40px;
+	font-weight: 700;
+    list-style-type: none;
+}
+
+header {
+	float: right;
+	width: 850px;
+	height: 340px;
+	background-color: #3E3544;
+}
+
+h1 {
+    text-align: left;
+    margin: 60px 0px 0px 420px;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+span {
+	font-size: 30px;
+    font-weight: 700;
+}
+
+form {
+    margin: 30px 130px 0px 420px;
+}
+
+label {
+	display: block;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 360px;
+	padding: 8px;
+	border: 0;
+	margin-bottom: 20px;
+	min-width: 200px;
+}
+
+button {
+	background-color: #3E3544;
+	border: 0;
+	width: 180px;
+	text-align: center;
+	font-weight: 700;
+	float: right;
+	padding: 10px;
+	color: #ffffff;
+	margin-top: -80px;
+}
+
+.mainButton {
+	width: 360px;
+	padding: 8px;
+	border: 0;
+	background-color: #9A969C;
+	font-weight: 700;
+	float: none;
+	margin: 0;
+}
+
+main {
+	float: right;
+	width: 800px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 22px;
+	text-align: center;
+	margin-right: 590px;
+	margin-bottom: 10px;
+}
+
+.columns {
+	margin-right: 35px;
+}
+
+.column1, 
+.column2, 
+.column3 {
+    margin: 25px 0px 25px 5px;
+    display: inline-block;
+    border-bottom: 1px solid #9A969C;
+}
+
+#noBorder {
+	border-bottom: none;
+	margin: 25px 0px 0px 5px;
+}
+
+p {
+	float: right;
+	margin-left: 400px;
+	margin-top: -160px;
+	width: 72%;
+	padding-bottom: 100px;
+}
+
+.roundImages {
+	border-radius: 50%;
+	width: 160px;
+	border: 3px solid #9A969C;
+    margin: 0px 0px 0px 0px;
+}
+
+#mainRoundImage {
+	width: 300px;
+	border: 8px solid #9A969C;
+	float: left;
+	margin: -85px 0px 20px 40px;
+}
+
+footer {
+	background-color: #3E3544;
+	height: 197px;
+	width: 850px;
+	float: right;
+}
+
+.allLogos {
+	float: right;
+	display: inline-block;
+	width: 200px;
+	max-height: 10px;
+	margin-top: -30px;
+}
+
+.logo {
+	width: 50px;
+	margin: 0px 0px 20px 20px;
+	display: inline-block;
+}
+
+.footerText {
+	color: #ffffff;
+	margin-top: 40px;
+	margin-right: 220px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0px;
+}

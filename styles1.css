@@ -1,0 +1,154 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+body {
+	width: 975px;
+	margin: auto;
+}
+
+.Doglogo {
+	width: 70px;
+	padding: 10px;
+}
+
+nav {
+	background-color: #75e2e6;
+	border-bottom: 3px solid #048eaa;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 25px;
+	float: right;
+}
+
+li {
+    padding: 0px 10px 0px 10px;
+    display: inline;
+}
+
+header {
+	background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/park.jpg) center bottom;
+	background-size: cover;
+	background-size: 100% 100%;
+	padding: 50px;
+}
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+	padding: 0px 0px 30px 0px;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+span {
+	color: #ffffff;
+	text-align: center;
+	padding: 0px 0px 30px 0px;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+form {
+	padding-top: 50px;
+	max-width: 100%;
+	text-align: center;
+}
+
+label {
+	display: block;
+	color: #ffffff;
+	margin-right: 310px;
+	padding-bottom: 5px;
+}
+
+input {
+	border: 0;
+	width: 350px;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+main {
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.column1, 
+.column2, 
+.column3 {
+    width: 29%;
+    display: inline-block;
+    margin: 0px 18px 0px 18px;
+}
+
+.columns {
+    text-align: center;
+}
+
+.roundImages {
+	border-radius: 50%;
+	width: 150px;
+	border: 3px solid #048eaa;
+	display: block;
+	margin: 0 auto;
+}
+
+p {
+	min-height: 240px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+button {
+	background-color: #048eaa;
+	border: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+	margin-top: 5s0px;
+}
+
+.mainButton {
+	background-color: #75e2e6;
+	width: 350px;
+	margin: auto;
+	color: #000000;
+	display: block;
+}
+
+footer {
+	background-color: #048eaa;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	height: 200px;
+}
+
+.logo {
+	width: 50px;
+	padding: 0px 5px 0px 5px;
+}
+
+.footerText {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	color: #ffffff;
+	min-height: 10px;
+	text-align: center;
+}
