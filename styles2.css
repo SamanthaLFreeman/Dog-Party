@@ -18,11 +18,12 @@ body {
 }
 
 nav {
-    height: 1366px;
+    height: 1731px;
     width: 160px;
     float: left;
     background-color: #9A969C;
     border-right: 3px solid #3E3544;
+    position: fixed;
 }
 
 ul {
@@ -34,6 +35,14 @@ li {
 	padding-bottom: 40px;
 	font-weight: 700;
     list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
 }
 
 header {

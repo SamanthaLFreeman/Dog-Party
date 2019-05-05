@@ -11,47 +11,45 @@
     <nav>
       <img src="images/dog-icon.svg" class="Doglogo" alt="Dog Icon" /> 
       <ul>
-        <li>How To Dog</li>
-        <li>What Is Dogs</li>
-        <li>Facts From Dog</li>
+        <li><a href="">How To Dog</a></li>
+        <li><a href="">What Is Dogs</a></li>
+        <li><a href="">Facts From Dog</a></li>
       </ul> 
     </nav>
-    <div class="tint">
     <header>
-        <h1>A Site About <span>Some Dogs</span></h1>
+        <h1>A Site About <span id="changeName">Some Dogs</span></h1>
         <img src="images/dog1-sq.jpg" class="roundImages" id="mainRoundImage" alt="Orange dog" />
-        <form>
+        <form id="changeForm">
           <label>Name</label>
-            <input>
-            <button class="mainButton">Name This Dog</button>
+            <input id="inputName" type="text" name="inputName">
+            <button class="mainButton" onsubmit>Name This Dog</button>
         </form>
     </header>
-    </div>
     <main>
     <div class="columns">
       <div class="column1">
         <h2>How To Dog</h2>
           <img src="images/dog2-sq.jpg" class="roundImages" alt="Grey dog" />
-            <p>
+          <p>
             Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuute you are doing me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers pupper heck ruff.
-            </p>
-              <button>How</button>
+          </p>
+          <button>How</button>
       </div>
       <div class="column2">
         <h2>What Is Dogs</h2>
           <img src="images/dog3-sq.jpg" class="roundImages" alt="Big black dog" />
-            <p>
+          <p>
             Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have evern seen heckin angery woofer pupper. ruff adorable doggo very hand that feed shibe. Extremely cuuuuuute corgo waggy wags stop it fren.
-            </p>
-              <button>What</button>
+          </p>
+          <button>What</button>
       </div>
       <div class="column3" id="noBorder">
       	<h2>Facts From Dog</h2>
       	  <img src="images/dog4-sq.jpg" class="roundImages" alt="Small black dogg" />
       	  <p>
-      	  Most angery pupper I have ever seen such treat heck, dat tungg tho, You are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.
+      	    Most angery pupper I have ever seen such treat heck, dat tungg tho, You are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.
       	  </p>
-      	    <button>Facts</button>
+      	  <button>Facts</button>
       </div>
     </div>
     </main>
@@ -64,5 +62,6 @@
         <img src="images/linkedin.svg" class="logo" alt="Linkedin logo" />
       </div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
